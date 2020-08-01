@@ -22,7 +22,7 @@ class WebsiteMonitor:
             response = requests.get(
                 website, timeout=1, allow_redirects=follow_redirects)
             return int(response.status_code)
-        except requests.HTTPError:
-            return -1
-        except requests.Timeout:
+        except (requests.HTTPError,
+                requests.Timeout,
+                requests.ConnectionError):
             return -1
