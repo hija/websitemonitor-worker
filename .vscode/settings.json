@@ -9,5 +9,8 @@
     "python.testing.pytestEnabled": false,
     "python.testing.nosetestsEnabled": false,
     "python.testing.unittestEnabled": true,
-    "python.pythonPath": "C:\\Users\\Hilko\\.virtualenvs\\websitemonitor-worker-Hnyxun-B\\Scripts\\python.exe"
+    "python.pythonPath": "C:\\Users\\Hilko\\.virtualenvs\\websitemonitor-worker-Hnyxun-B\\Scripts\\python.exe",
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true
 }
