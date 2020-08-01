@@ -1,5 +1,5 @@
 from unittest import TestCase
-from monitor import WebsiteMonitor
+from monitor.monitor import WebsiteMonitor
 import unittest
 
 
